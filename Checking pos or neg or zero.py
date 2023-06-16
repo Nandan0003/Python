@@ -7,6 +7,7 @@ if num > 0:
    
 #checking if 0
 elif number == 0:
+  
    print("Zero")
    
    
