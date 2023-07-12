@@ -2,15 +2,15 @@ print("welcome to the shop")
 
 #asking name
 
-name = input("enter ur name")
+name = input("enter ur name \n")
 
 print("what would you like to have "+" " + name )
 
 #Taking order
-order = input("normal,black,strong,cold" )
+order = input("normal,black,strong,cold \n" )
 
 if order == "normal":
-    more = input("do u want more sugar")
+    more = input("do u want sugar \n")
     if more == "yes":
         price = 25
     else:
@@ -26,12 +26,12 @@ else :
     print("sorry we dont have that")
     exit()
 #asking for quantity
-quantity = int(input("how many coffee do u want"))
+quantity = int(input("how many coffee do u want \n"))
 
-
+#calulating total price 
 totalprice = quantity * price
 
-print("ur total bills is   " + str(totalprice))
+print("ur total bills is  " + str(totalprice))
 
 
 
