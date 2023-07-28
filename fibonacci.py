@@ -9,17 +9,17 @@ latest = []
 
 #taking user input till n will be initiated
 n = int(input("enter n \n"))
+#to take count because the series must be continued till n
 count = 0
-#first append the last then 
-latest.append(last)
+
 
 #checking the conditions for fibonacci
 while count < n:
-        
+    latest.append(last) 
+    last = a + b
     a = b
     b = last
-    last = a + b
-    latest.append(last)
+    
     count += 1
     
 #at last print lat3est list of fibonacci series
