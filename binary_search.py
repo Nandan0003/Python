@@ -15,9 +15,9 @@ def b(ls,n):
             return True
         else:
             if ls[mid] < n:
-                l = mid 
+                l = mid + 1 
             else:
-                u = mid 
+                u = mid - 1
                 
     return False    
  
