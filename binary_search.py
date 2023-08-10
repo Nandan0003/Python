@@ -31,7 +31,7 @@ ls.sort()
 print(ls)
 
 # value which we require
-n = 9
+n = 10
 
 
 #calling the function and checking if it is true or not
