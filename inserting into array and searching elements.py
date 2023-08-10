@@ -18,3 +18,5 @@ for j in arr:
     if j == value:
         print(f'found at {pos} \n')
     pos += 1
+else:
+    print("not found")
