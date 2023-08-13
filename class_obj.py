@@ -10,4 +10,4 @@ class Cricketer:
 opt = Cricketer("nandan","all rounder")
 
 
-print(opt.key())
+opt.key()

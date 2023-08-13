@@ -15,13 +15,18 @@ count = 0
 
 #checking the conditions for fibonacci
 while count < n:
+    
     latest.append(last) 
-    last = a + b
+    
     a = b
     b = last
-    
+    last = a + b
+   
     count += 1
     
 #at last print lat3est list of fibonacci series
 print(latest)
     
+
+1
+
