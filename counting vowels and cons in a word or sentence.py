@@ -22,6 +22,6 @@ def count(strn):
         
         
         
-strn = input("enter a string \n")
+strn = input("enter a string \n").lower()
 
 count(strn)
