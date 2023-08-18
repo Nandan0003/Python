@@ -12,10 +12,16 @@ def count(strn):
         print("vowels are",str(vowels))
     else:
         print("no vowels found")
+     
+    if len(cons) > 0 :
+           
+        print(len(cons),"consonents present")
+        print("consonents are",str(cons))
+    else:
+        print("no consonents found")
         
-    print(len(cons),"consonents present")
-    print("consonents are",str(cons))
-    
+        
+        
 strn = input("enter a string \n")
 
 count(strn)
