@@ -13,7 +13,7 @@ class Bike:
             self.bname = bname
             
         def brand(self):
-            print(f'{self.bname}')
+            print(f'A SUPER BIKE CALLED {self.bname}')
 a = Bike("BMW",1000,4)
 a.show()
 
