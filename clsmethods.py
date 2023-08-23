@@ -16,7 +16,7 @@ class movies:
         print(f'{self.hero} is with {self.heroine} and in year {self.year} for a big movie called  {self.movie} ')
         
     #class method
-    @classmethod
+    #@classmethod
     def indus(cls):
         print(cls.industry)  
 
@@ -37,7 +37,7 @@ movies.indus()
 s = movies("sudeep","neetha ashok",2022,"vikrath rona")
 s.title()
 
-movies.indus()  
+movies.indus.cls()  
 sh = movies("shivanna","adithi",2023,"vedha")
 sh.title()
 
