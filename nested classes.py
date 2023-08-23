@@ -3,6 +3,7 @@ class Bike:
         self.brand = brand 
         self.ccubic = ccubic
         self.cylinder = cylinder
+        self.new = self.Model("S1000RR")
         
     def show(self):
         print(f'{self.brand} has a {self.ccubic} capacity bike with {self.cylinder} cylinders')
@@ -17,5 +18,7 @@ class Bike:
 a = Bike("BMW",1000,4)
 a.show()
 
-b = Bike.Model("S1000RR")
-b.brand()
+x = a.new.brand()
+
+#b = Bike.Model("S1000RR")
+#b.brand()
