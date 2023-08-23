@@ -1,6 +1,9 @@
+#class 
 class movies:
     
+    #class variable
     industry = "SANDALWOOD"
+    
     
     def __init__(self,hero,heroine,year,movie):
         self.hero = hero
@@ -8,22 +11,24 @@ class movies:
         self.year = year
         self.movie = movie
         
-        
+    #instance method   
     def title(self):
         print(f'{self.hero} is with {self.heroine} and in year {self.year} for a big movie called  {self.movie} ')
         
-    
+    #class method
     @classmethod
     def indus(cls):
         print(cls.industry)  
 
+    #static method
     @staticmethod
     def info():
         print("\nall are HIT movies in KANNADA andEVERYWHERE\n")
         
-        
-        
-        
+  
+    
+#calling all function
+       
 movies.indus()       
 y = movies("yash","srinidhi",2019,"kgf")
 y.title()
