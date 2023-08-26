@@ -17,5 +17,6 @@ b = BMW()
 b.new(bb)
 
 cc = Car()
-c =BMW()
+
+c = BMW()
 c.new(cc)
