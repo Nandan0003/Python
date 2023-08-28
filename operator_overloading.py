@@ -17,6 +17,12 @@ class Emp:
         bon = self.bon - other.bon 
         divided  = Emp(sal,bon)
         return divided
+     
+    def __mul__(self, other):
+        sal = self.sal * other.sal 
+        bon = self.bon * other.bon 
+        mull = Emp(sal,bon)
+        return mull
         
 husband = Emp(10000,1000)
 wife = Emp(9000,900)
@@ -26,3 +32,6 @@ print(combined.sal)
 
 divided = husband - wife
 print(divided.bon)
+
+mull = husband * wife
+print(mull.bon)
