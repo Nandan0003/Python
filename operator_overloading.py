@@ -23,6 +23,12 @@ class Emp:
         bon = self.bon * other.bon 
         mull = Emp(sal,bon)
         return mull
+    
+    def __gt__(self,other):
+        if self.sal > other.sal:
+            print(f'{self.sal} is more')
+        else:
+            print(f'{other.sal} is more')
         
 husband = Emp(10000,1000)
 wife = Emp(9000,900)
@@ -35,3 +41,7 @@ print(divided.bon)
 
 mull = husband * wife
 print(mull.bon)
+
+gt = husband > wife
+
+
