@@ -29,7 +29,12 @@ class Emp:
             print(f'{self.sal} is more')
         else:
             print(f'{other.sal} is more')
-        
+            
+    def __lt__(self,other):
+        if self.bon < other.bon:
+            return True
+        else:
+            return False
 husband = Emp(10000,1000)
 wife = Emp(9000,900)
 
@@ -44,4 +49,9 @@ print(mull.bon)
 
 gt = husband > wife
 
+lt = husband < wife
+if lt:
+    print("husband has less")
+else:
+    print("wife has less")
 
