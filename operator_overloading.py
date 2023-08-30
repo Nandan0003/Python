@@ -34,7 +34,8 @@ class Emp:
         if self.bon < other.bon:
             return True
         else:
-            return False
+            return False 
+#new objects ffor class
 husband = Emp(10000,1000)
 wife = Emp(9000,900)
 
