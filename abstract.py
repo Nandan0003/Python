@@ -17,3 +17,6 @@ class Ducati(Bike):
         
 b1 = BMW()
 b1.top()
+
+b2 = Ducati()
+b2.top()
