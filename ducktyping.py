@@ -20,3 +20,5 @@ cc = Car()
 
 c = BMW()
 c.new(cc)
+
+
