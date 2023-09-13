@@ -22,3 +22,6 @@ c = BMW()
 c.new(cc)
 
 
+dd = Car()
+d = BMW()
+d.new(dd)
