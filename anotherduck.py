@@ -26,5 +26,10 @@ ob2 = Any()
 ob2.any(ob1)
 
 
+ob3 = book()
+
+ob4 = Any()
+ob4.any(ob3)
+
 
 #any class and objects can be passed to any so it calls directly
