@@ -4,7 +4,6 @@ def topcube():
         cube = n*n*n
         yield cube
         n += 1
-        
     
 cubee = topcube()
 for i in cubee:
