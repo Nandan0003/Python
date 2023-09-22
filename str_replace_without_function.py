@@ -20,7 +20,7 @@ s = ""
 space = " "
 
 #splitting the ip string
-new  = str.split(" ") or str.split(",")
+new  = str.split(" ") 
 
 
 #checking condition matching with replacemnt word and replaing with new word
