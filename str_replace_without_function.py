@@ -1,3 +1,7 @@
+
+### NOTE: I will be trying method this is sample and for my learninng ###
+
+
 #string input
 str  = input("enter a string\n")
 
@@ -33,3 +37,5 @@ for i in new:
         
 #printing new string
 print(s)        
+
+
