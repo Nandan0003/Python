@@ -27,7 +27,7 @@ def sortt(lisss):
         lisss[i],lisss[min] = lisss[min],lisss[i]
         
         
-        print(lisss)   
+    print(lisss)   
 
 
 lisss = [5,6,7,2,6,9,5]
