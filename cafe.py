@@ -1,5 +1,5 @@
 
-#semi done project
+
 
 
 
@@ -78,5 +78,6 @@ new = input("do u need to order again \n yes or no \n")
 if new  == "yes":
     menu()
 
+    
 print(f"thank you for visiting and the total bill is {total}")
 
