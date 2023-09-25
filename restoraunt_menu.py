@@ -66,17 +66,53 @@ def menu():
                 globals()['total'] += mp 
             else:
                 globals()['total'] += pp
-    
+    elif typee == "chinese" or typee == "3":
+        
+        n = int(input("enter how many north indian dishes u need\n"))
+        for i in range(n):
+            
+            order = input(" Select your Meals \n 1.fried rice \n 2.gobi manchurian \n 3.noodles \n 4.veg soup ").lower()
+            dish.append(order)
+            if order == "fried rice" or order == "1":
+                fp = 200
+            elif order =="gobi manchurian" or order == "2":
+                hp = 150
+            elif order =="noodles" or order == "3":
+                mp = 120
+            elif order == "veg soup" or order == "4":
+                pp = 50
+        
+     
+        for i in dish:
+            if i == "fried rice" or i == "1":
+                globals()['total'] += fp
+            elif i == "gobi manchurian" or i == "2":
+                globals()['total']+= hp
+            elif i == "noodles" or i == "3":
+                globals()['total'] += mp 
+            else:
+                globals()['total'] += pp
     print(dish)       
     
+    new = input("do u need to order again \n yes or no \n")    
+    while new != "no":
+        def orr(new):
+            
 
+
+            if new  == "yes":
+                menu()
+            
+               
+                
+
+            
+        orr(new)
+    print(f"thank you for visiting and the total bill is {total}")
+    exit()
 menu() 
 
 
-new = input("do u need to order again \n yes or no \n")
 
-if new  == "yes":
-    menu()
-
-print(f"thank you for visiting and the total bill is {total}")
+    
 
