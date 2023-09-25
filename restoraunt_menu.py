@@ -1,6 +1,6 @@
 
-#semi done project
-
+#NOTE This Menu applicable for food vloggers sooo they can order each item in all the counter 
+#if in south indian they can taste every dish available and it continues in every counter
 
 
 print("greetings to everyone \n")
