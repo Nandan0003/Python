@@ -8,4 +8,3 @@ cursor.execute(" show databases")
 for i in cursor:
     print(i)
     
-#cursor.execute(" s")
