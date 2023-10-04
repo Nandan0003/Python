@@ -34,3 +34,4 @@ while True:
     #if the input is not understable to cpu
     else:
         print("i dont understand")
+
