@@ -37,4 +37,4 @@ while True:
         
         
 
-print("Thank you for taking quiz you scored ",str(count))
+print("Thank you for taking quiz you scored out of 3 is ",str(count))
