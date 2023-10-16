@@ -1,7 +1,11 @@
+#priortize condition false coz at start no ntg is heard
 cond = False 
 
 def light():
+    #here am taking count from user but we can automate through censors
     clapcount = int(input("from censor returning count of claps \n"))
+    
+    #different types of scenario for different count 
     if clapcount == 0:
         print("not heard and not turning on anything")
         globals()['cond'] =  False
