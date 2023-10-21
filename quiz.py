@@ -1,4 +1,4 @@
-name = input("Enter your name \n")
+name = input("Enter your name \n").capitalize()
 
 print(f"hii {name} welcome to the quiz \n")
 
@@ -35,6 +35,13 @@ while True:
         print("you failed ")
     break
         
-        
+if count > 2:
+      
 
-print("Thank you for taking quiz you scored out of 3 is ",str(count))
+    print(f"Thank you {name}for taking quiz you scored out of 3 is ",str(count),"That is excellent")
+    
+elif count > 1:
+    print(f"Thank you {name}for taking quiz you scored out of 3 is ",str(count),"That is quite good but nned to work")
+    
+else:
+    print("poor and need to work very hard")
