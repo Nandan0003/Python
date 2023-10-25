@@ -21,20 +21,21 @@ def table():
         
         tableno = int(input("enter a table no u want to book"))
         
-        if tableno == 1 and table1["bookcond"] == False:
-            print("table is free and you can book")
-            cond = input("Do u need to book if yes type : y if no : no").lower()
-            if cond == "y":
-                name = input("enter your name")
-                table1["bookcond"] = True 
-                table1["name"] = name 
-                print("You booking is confirmed and details are \n")  
-                 
-                print(str(table1)) 
-                exit()
-            else:
-                print("thank you")
-                exit()
+        if tableno == 1 :
+            if table1["bookcond"] == False:
+                print("table is free and you can book")
+                cond = input("Do u need to book if yes type : y if no : no").lower()
+                if cond == "y":
+                    name = input("enter your name")
+                    table1["bookcond"] = True 
+                    table1["name"] = name 
+                    print("You booking is confirmed and details are \n")  
+                    
+                    print(str(table1)) 
+                    exit()
+                else:
+                    print("thank you")
+                    exit()
                 
         elif tableno == 2 :
             if table2["bookcond"] == False:
