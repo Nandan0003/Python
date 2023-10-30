@@ -23,10 +23,10 @@ def table():
         
         if tableno == 1 :
             if table1["bookcond"] == False:
-                print("table is free and you can book")
-                cond = input("Do u need to book if yes type : y if no : no").lower()
+                print("table is free and you can book \n")
+                cond = input("Do u need to book if yes type : y if no : no \n").lower()
                 if cond == "y":
-                    name = input("enter your name")
+                    name = input("enter your name \n")
                     table1["bookcond"] = True 
                     table1["name"] = name 
                     print("You booking is confirmed and details are \n")  
@@ -40,9 +40,9 @@ def table():
         elif tableno == 2 :
             if table2["bookcond"] == False:
                 print("table is free and you can book")
-                cond = input("Do u need to book if yes type : y if no : no").lower()
+                cond = input("Do u need to book if yes type : y if no : no \n").lower()
                 if cond == "y":
-                    name = input("enter your name")
+                    name = input("enter your name \n")
                     table2["bookcond"] = True 
                     table2["name"] = name 
                     print("You booking is confirmed and details are \n")  
@@ -55,14 +55,14 @@ def table():
             
                     exit()
             elif table2["bookcond"] == True:
-                print("The table is already booked, You can checkout any other table")
+                print("The table is already booked, You can checkout any other table \n")
                       
         elif tableno == 3 :
             if table3["bookcond"] == False:
-                print("table is free and you can book")
-                cond = input("Do u need to book if yes type : y if no : no").lower()
+                print("table is free and you can book\n")
+                cond = input("Do u need to book if yes type : y if no : \n").lower()
                 if cond == "y":
-                    name = input("enter your name")
+                    name = input("enter your name\n")
                     table3["bookcond"] = True 
                     table3["name"] = name 
                     print("You booking is confirmed and details are \n")  
