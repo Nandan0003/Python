@@ -20,13 +20,5 @@ while i < n:
 
 print(num3)
 
-n = len(num1)
-i = 0
-while i < n:
-    if num1[i] != 0:
-        print(num1)
-        num1.insert(i,num1[i])
-    i += 1
-        
-    
+
     

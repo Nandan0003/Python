@@ -5,14 +5,14 @@ class new:
         self.b = b
         self.c = c
 
-#    
+#function to add     
         
     def add(self):
         sum = 0 
         
         sum = self.a + self.b + self.c
         print(sum)
-    
+#method to mutiply with overloading    
     def mul(self,m = None,n = None, o = None):
         prod = 0
         if m != None and n != None and o != None:

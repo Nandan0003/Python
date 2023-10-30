@@ -57,6 +57,22 @@ def table():
             elif table2["bookcond"] == True:
                 print("The table is already booked, You can checkout any other table")
                       
-        
+        elif tableno == 3 :
+            if table3["bookcond"] == False:
+                print("table is free and you can book")
+                cond = input("Do u need to book if yes type : y if no : no").lower()
+                if cond == "y":
+                    name = input("enter your name")
+                    table3["bookcond"] = True 
+                    table3["name"] = name 
+                    print("You booking is confirmed and details are \n")  
+                    
+                    print(str(table3)) 
+                    exit()
+                
+                else:
+                    print("thank you")
+            
+                    exit()
 table()
         

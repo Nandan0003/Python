@@ -9,10 +9,12 @@ b = ["B","N","A","N","A","V"]
 z = list(zip(a,b))
 print(z)
 
+
 a = ["a","ab","t", "co", "i", "pyt"]
 b = ["m","le","o","de","n","hon"]
 
 coder = list(zip(a,b)) 
+
 
 print("\n\n\n")
 

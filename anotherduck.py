@@ -14,8 +14,7 @@ class book:
 class Any:
     def any(self,objj):
         objj.write()
-        
-        
+
 #object for pen       
 ob1 = Pen()
 
