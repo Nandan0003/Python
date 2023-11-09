@@ -3,7 +3,7 @@ class sol:
         self.l1 = l1
         self.l2 = l2 
         
-        
+    #function to process   
     def li(self):
         ll1 = " "
         for i in l1:
@@ -19,8 +19,6 @@ class sol:
         
         sum = str(sum)
         print(sum[::-1])
-        
-        
 l1 = [2,4,3]
 l2 = [5,6,4]
 
